@@ -25,6 +25,6 @@
 
 <div class="flex-col">
   {#each stories as story, i }
-    <Story index={`0${i}`} title={story.title} subText={story.subText} image={story.image} />
+    <Story index={`0${i + 1}`} title={story.title} subText={story.subText} image={story.image} />
   {/each}
 </div>

@@ -2,9 +2,5 @@
   import "../tailwind.css";
 </script>
 
-<div class="news-homepage__container">
-
+<div class="w-full h-screen bg-teal-100">
 </div>
-
-<style lang="postcss">
-</style>

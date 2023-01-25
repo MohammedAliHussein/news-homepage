@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import "../tailwind.css";
+</script>
+
+<div class="news-homepage__container">
+
+</div>
+
+<style lang="postcss">
+</style>

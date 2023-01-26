@@ -2,7 +2,7 @@
 	import HeroSubNew from "./HeroSubNew.svelte";
 </script>
 
-<div class="flex-col bg-very_dark_blue p-5 my-10">
+<div class="flex-col w-full h-fit bg-very_dark_blue p-5 my-10 md:ml-7 md:my-0 md:w-3/5">
   <p class="font-inter text-soft_orange text-2xl tracking-wider">New</p>
   <div class="flex-col">
     <HeroSubNew title={"Hydrogen VS Electric Cars"} subText={"Will hydrogen-fueled cars ever catch up to EVs?"} isLast={false}/>

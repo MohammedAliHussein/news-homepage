@@ -12,7 +12,7 @@
   }
 </script>
 
-<div class="w-full p-5 bg-off_white">
+<div class="w-full p-5 md:p-20 bg-off_white">
   {#if showingMenu}
     <Menu on:closeMenu={handleMenu}/>
   {/if}

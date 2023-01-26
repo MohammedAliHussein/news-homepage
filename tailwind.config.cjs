@@ -4,9 +4,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'mobile': '576px',
-        'tablet': '768px',
-        'desktop': '1200px',
+        'sm': '576px',
+        'md': '768px',
       },
       colors: {
         soft_orange: 'hsl(35, 77%, 62%)',

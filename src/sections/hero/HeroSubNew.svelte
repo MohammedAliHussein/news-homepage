@@ -4,7 +4,7 @@
   export let isLast = false;
 </script>
 
-<div class="flex-col {isLast === false ? "py-5 border-b border-grayish_blue" : "pt-5"}">
+<div class="flex-col {isLast === false ? "py-5 border-b border-grayish_blue/60" : "pt-5"}">
   <p class="font-inter text-white text-lg font-bold tracking-wider">{title}</p>
-  <p class="font-inter text-grayish_blue text-sm font-medium tracking-wider py-3">{subText}</p>
+  <p class="font-inter text-grayish_blue text-sm font-medium tracking-wider py-3 opacity-60">{subText}</p>
 </div>
